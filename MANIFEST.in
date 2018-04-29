@@ -1,0 +1,3 @@
+include Makefile LICENSE
+
+global-exclude *.py[co]
