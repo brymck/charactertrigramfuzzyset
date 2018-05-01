@@ -9,10 +9,10 @@ from math import sqrt
 from operator import itemgetter
 from collections import defaultdict
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 
-class CharacterTrigramFuzzySet(object):
+class CharacterTrigramFuzzySet:
     def __init__(self, iterable, max_count=100, relative_threshold=0.5):
         self._match_dict = defaultdict(list)
         self._items = []
